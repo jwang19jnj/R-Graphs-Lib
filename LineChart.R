@@ -82,7 +82,7 @@ plotdata
 combinedplot
 
 #ggsave(combinedplot, width=6, height=6, filename='linechart.png', dpi=300)
-#ggsave(combinedplot, filename='linechart.png', dpi=600)
+ggsave(combinedplot, filename='linechart.png', dpi=600)
 ggsave(combinedplot, filename='linechart.pdf')
 
 
