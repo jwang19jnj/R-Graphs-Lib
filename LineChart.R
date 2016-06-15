@@ -71,6 +71,8 @@ plot <- p + geom_line(size=1) + geom_point(size=3) +
         legend.title = element_text(colour = 'purple', size = 14),
         legend.text = element_text(colour = 'red', size = 10),
         axis.line = element_line(size=1),
+        axis.line.x = element_line(color="black", size=1),
+        axis.line.y = element_line(color="black", size=1),
         panel.grid.minor=element_blank()) +
   labs(x="X Label", y="Y Label", title="A Sample Line Chart")
 
